@@ -6,7 +6,7 @@ from collections import Counter
 
 def main():
     dice_sum = []
-    user_input = input("Skriv antal sidor av upp till 2st tärningar du vill kasta. Endast från 4 till 20 sidor är tillåtna\n").split(" ")
+    user_input = input().split(" ")
     for i in range(1, int(user_input[0])+1):       
         for y in range(1, int(user_input[1])+1):
             dice_sum.append(i+y)
